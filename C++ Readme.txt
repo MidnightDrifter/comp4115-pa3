@@ -1,0 +1,1 @@
+All and all, I believe the syntax for my functions are correct, but I am simply unable to fix the header issues that keep cropping up.  There are just too many compiler issues to sort out.  I was able to set up a 64bit compiler and create .dll files, but the boiler plate code that MySQL needs to work simply doesn't want to cooperate.

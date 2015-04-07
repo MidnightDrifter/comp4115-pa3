@@ -1,0 +1,18 @@
+SELECT myTime(120);
+
+SELECT myTime(3601);
+
+SELECT myTime(12);
+
+SELECT myTime(3666);
+
+
+
+
+SELECT myArea(1);
+
+SELECT myArea(2);
+
+SELECT myArea(3.14);
+
+SELECT myArea(1.23);

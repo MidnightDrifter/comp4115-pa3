@@ -1,0 +1,51 @@
+CALL genderCount('M');
+
+COUNT(*)
+179973
+
+
+
+CALL genderCount('F');
+
+COUNT(*)
+120051
+
+
+CALL averageSalary("d001");
+
+AVG(salary)
+71913.2000
+
+
+
+CALL averageSalary("d009");
+
+AVG(salary)
+58770.3665
+
+
+
+
+CALL employeeNames("Simmel");
+
+Bezalel Simmel
+Tommaso Simmel
+Tzvetan Simmel
+Adel Simmel
+Alair Simmel
+Jessie Simmel
+Khalil Simmel
+Moni Simmel
+
+
+CALL employeeNames("Peac");
+
+Sumant Peac
+Bedir Peac
+Mooi Peac
+Jeong Peac
+Suebskul Peac
+Shakhar Peac
+Reinhard Peac
+
+

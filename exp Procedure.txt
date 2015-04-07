@@ -1,0 +1,16 @@
+
+DELIMITER //
+CREATE PROCEDURE exp (IN a INT, IN b INT)
+BEGIN
+SELECT a*b;
+END//
+
+DELIMITER ;
+
+CALL exp(5, -4);
+
++--------------+
+| a*b          |
++--------------+
+| -20          |
++--------------+
